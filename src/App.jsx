@@ -112,7 +112,7 @@ function Home() {
         >
           <div className="photo-halo" />
           <div className="photo-card">
-            <img src="/images/profile.jpg" alt="Manyala Pavani" />
+           <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Manyala Pavani" />
            </div> 
           <div className="floating-chip chip-one"><BrainCircuit size={16} /> AI & GenAI</div>
           <div className="floating-chip chip-two"><Database size={16} /> Data</div>
